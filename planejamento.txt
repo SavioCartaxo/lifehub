@@ -1,0 +1,95 @@
+========================================
+           LIFEHUB ROADMAP
+========================================
+
+[1] Backend Core (C++)
+✔ Task
+✔ TaskManager
+✔ CRUD de tasks
+✔ Organização em módulos
+
+Estrutura:
+src/
+ ├── models/
+ ├── services/
+ ├── database/
+ ├── ui/
+ └── main.cpp
+
+----------------------------------------
+
+[2] Persistência de Dados
+-> SQLite
+
+Objetivos:
+✔ salvar tasks
+✔ carregar tasks
+✔ atualizar tasks
+✔ deletar tasks
+
+Aprender:
+- SQL
+- CRUD
+- persistência
+- integração C++ + SQLite
+
+----------------------------------------
+
+[3] Interface Desktop
+-> Electron
+-> HTML/CSS/JS
+
+Objetivos:
+✔ criar app desktop real
+✔ interface moderna
+✔ sidebar
+✔ cards
+✔ formulários
+✔ estatísticas
+
+Aprender:
+- HTML
+- CSS
+- JavaScript
+- UI/UX
+
+----------------------------------------
+
+[4] Integração Front + Back
+
+Fluxo:
+
+Electron
+↓
+HTML/CSS/JS
+↓
+C++ Backend
+↓
+SQLite
+
+Objetivos:
+✔ comunicação frontend/backend
+✔ requests
+✔ atualização dinâmica da UI
+
+----------------------------------------
+
+[5] Funcionalidades Futuras
+
+✔ filtros
+✔ calendário
+✔ categorias
+✔ tempo investido
+✔ gráficos
+✔ metas
+✔ produtividade diária
+✔ sessões de foco
+✔ dashboard
+
+========================================
+Objetivo Final:
+Criar um aplicativo desktop moderno
+para gerenciamento pessoal e
+produtividade usando C++, Electron
+e SQLite.
+========================================
