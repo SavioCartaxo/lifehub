@@ -27,6 +27,8 @@ public:
     std::string getTaskDescription(std::string taskTitle);
     bool getTaskIsFinished(std::string taskTitle);
     double getTaskInvestedTime(std::string taskTitle);
+
+    void setTaskDescription(std::string taskTitle, std:: string description);
 };
 
 }

@@ -42,8 +42,14 @@ std::map<std::string, Task> TaskManager::getTaskList() {
     return task_list;
 }
 
+void TaskManager::setTaskDescription(std::string taskTitle, std:: string description) {
+    task_list[taskTitle].setDescription(description);
+}
+
 std::string getTaskActivityType(std::string taskTitle);
 std::string getTaskDescription(std::string taskTitle);
 bool getTaskIsFinished(std::string taskTitle);
 double getTaskInvestedTime(std::string taskTitle);
+
+
 };
