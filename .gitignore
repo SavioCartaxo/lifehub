@@ -1,2 +1,5 @@
 planejamento
 SQL
+*.db
+*.json
+.vscode
